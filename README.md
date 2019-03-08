@@ -34,6 +34,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.
 
+### `npm run storybook`
+
+Start the storybook UI component library. 
+
+### `npm run lint`
+
+Runs eslint on all relevant project files.
+
 ## Contributors
 
 * Adam Mescher - development
