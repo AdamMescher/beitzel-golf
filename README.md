@@ -1,6 +1,6 @@
 # beitzel-golf
 
-## [Live Website - beitzelgolf.com](https://www.beitzelgolf.com)
+### [Live Website - beitzelgolf.com](https://www.beitzelgolf.com)
 
 ## About
 
