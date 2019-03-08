@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
-const StyledLogo = styled.header``;
+const StyledLogo = styled.div``;
 
 export default StyledLogo;
