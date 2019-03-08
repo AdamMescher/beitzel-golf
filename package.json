@@ -25,6 +25,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@storybook/react": "^5.0.0"
+    "@storybook/react": "^5.0.0",
+    "babel-plugin-styled-components": "^1.10.0"
   }
 }
