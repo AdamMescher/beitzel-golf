@@ -14,6 +14,10 @@ Website for golf professional Brian Beitzel
 * Test suite executed with `Jest`
 * Linted with `eslint` and `prettier`
 
+## Project Status
+
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/AdamMescher/beitzel-golf.svg?columns=all)](https://waffle.io/AdamMescher/beitzel-golf)
+
 ## Available Scripts
 
 ### `npm start`
