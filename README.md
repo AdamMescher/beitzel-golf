@@ -7,7 +7,6 @@ Website for golf professional Brian Beitzel
 [Live Website](https://www.beitzelgolf.com)
 
 * Bootstrapped with `create-react-app` - [Create React App GitHub repo](https://github.com/facebook/create-react-app)
-* Uses `Ant Design` components - [Ant.Design React page](https://ant.design/docs/react/introduce)
 * Styled with `styled-components` - [styled components GitHub repo](https://www.styled-components.com/)
 * UI developed using `Storybook` - [Storybook React guide](https://storybook.js.org/docs/basics/guide-react/)
 * Hosted by `Netlify` - [Netlify homepage](https://www.netlify.com/)
