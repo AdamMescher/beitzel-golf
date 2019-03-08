@@ -4,7 +4,7 @@
 
 Website for golf professional Brian Beitzel
 
-[Live Website](https://www.beitzelgolf.com)
+[Live Website - beitzelgolf.com](https://www.beitzelgolf.com)
 
 * Bootstrapped with `create-react-app` - [Create React App GitHub repo](https://github.com/facebook/create-react-app)
 * Styled with `styled-components` - [styled components GitHub repo](https://www.styled-components.com/)
