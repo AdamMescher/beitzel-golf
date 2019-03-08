@@ -11,6 +11,8 @@ Website for golf professional Brian Beitzel
 * Routing with React Router - [React Router GitHub](https://github.com/ReactTraining/react-router)
 * UI developed using `Storybook` - [Storybook React guide](https://storybook.js.org/docs/basics/guide-react/)
 * Hosted by `Netlify` - [Netlify homepage](https://www.netlify.com/)
+* Test suite executed with `Jest`
+* Linted with `eslint` and `prettier`
 
 ## Available Scripts
 
