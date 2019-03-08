@@ -13,7 +13,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "precommit": "NODE_ENV=production lint-staged",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "lint": "./node_modules/.bin/eslint ./"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,6 +28,16 @@
   ],
   "devDependencies": {
     "@storybook/react": "^5.0.0",
-    "babel-plugin-styled-components": "^1.10.0"
+    "babel-eslint": "^9.0.0",
+    "babel-plugin-styled-components": "^1.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-react-app": "^3.0.8",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4"
   }
 }
