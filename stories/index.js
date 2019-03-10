@@ -1,4 +1,5 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-import App from "../src/components/App/index";
-storiesOf("App", module).add("Default State", () => <App />);
+import Header from "../src/components/Header/index";
+
+storiesOf("Header", module).add("Default State", () => <Header />);

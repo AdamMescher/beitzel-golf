@@ -3,7 +3,17 @@ import StyledNav from "./styled";
 
 const Nav = () => (
   <StyledNav>
-    <h1>nav goes here?</h1>
+    <ul>
+      <li>
+        <a href="#about">about</a>
+      </li>
+      <li>
+        <a href="#lessons">lessons</a>
+      </li>
+      <li>
+        <a href="#contact">contact</a>
+      </li>
+    </ul>
   </StyledNav>
 );
 
