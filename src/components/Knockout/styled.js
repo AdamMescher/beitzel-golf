@@ -13,9 +13,16 @@ const StyledKnockout = styled.div`
     color: white;
     white-space: nowrap;
     justify-self: start;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1.25rem 2rem 1.25rem 2rem;
     font-weight: ${props => props.theme.fontStack.headerFontWeightHeavy};
     margin: 1rem 0 1rem;
+  }
+  h2:first-child {
+    margin-top: 0.5rem;
+  }
+
+  h2:last-child {
+    margin-bottom: 0.5rem;
   }
 `;
 
