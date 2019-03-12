@@ -17,7 +17,7 @@ const StyledLogo = styled.nav`
     text-decoration: none;
     color: black;
     font-family: "Raleway";
-    font-size: 4vw;
+    font-size: ${props => props.theme.fontStack.h2FontSize};
     text-transform: uppercase;
   }
   a:hover {
