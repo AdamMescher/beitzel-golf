@@ -7,6 +7,20 @@ Beitzel LOGO FONTS
 */
 
 const theme = {
+  fontStack: {
+    fontFamilyBody: `'Lato', sans-serif`,
+    fontFamilyHeader: `'Raleway', serif`,
+    htmlFontSize: `16px`,
+    bodyLineHeight: 1.45,
+    bodyFontWeight: 400,
+    headerFontWeightLight: 400,
+    headerFontWeightHeavy: 700,
+    h1FontSize: `4.209em`,
+    h2FontSize: `3.157em`,
+    h3FontSize: `2.369em`,
+    h4FontSize: `1.777em`,
+    h5FontSize: `1.333em`
+  },
   pgabrandone: "rgb(180, 151, 90)",
   pgabrandtwo: "rgb(37, 50, 85)",
   tpcbrandone: "rgb(0, 62,126)",

@@ -1,16 +1,10 @@
 import React from "react";
 import StyledHero from "./styled";
+import Knockout from "../Knockout/index";
 
 const Hero = () => (
   <StyledHero>
-    <div>
-      <article>
-        <div>
-          <h2>Brian Beitzel</h2>
-          <h2>Golf Professional</h2>
-        </div>
-      </article>
-    </div>
+    <Knockout lines={["Brian Beitzel", "Golf Professional"]} />
     <div>
       <img src="" alt="" />
     </div>
