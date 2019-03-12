@@ -1,6 +1,10 @@
-import React from 'react';
-import StyledHero from './styled';
+import React from "react";
+import StyledHero from "./styled";
 
-const Hero = () => <h1>WE COULD BE HEROS...YOU AND MEEEEEE</h1>
+const Hero = () => (
+  <StyledHero>
+    <h1>WE COULD BE HEROS...YOU AND MEEEEEE</h1>
+  </StyledHero>
+);
 
 export default Hero;
