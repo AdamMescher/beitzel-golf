@@ -24,9 +24,20 @@ const StyledLogo = styled.nav`
     color: grey;
   }
 
-  @media (max-width: 725px) {
+  @media (max-width: 1250px) {
+    margin-top: 1.5rem;
+  }
+
+  @media (max-width: 900px) {
+    margin-top: 0.75rem;
     li {
-      font-size: 1.2em;
+      font-size: 0.5em;
+    }
+  }
+
+  @media (max-width: 500px) {
+    li {
+      font-size: 0.4em;
     }
   }
 `;

@@ -18,6 +18,10 @@ const StyledHero = styled.section`
     font-family: ${props => props.theme.fontStack.fontFamilyBody};
     line-height: ${props => props.theme.fontStack.bodyLineHeight};
   }
+  @media (max-width: 600px) {
+    width: calc(100% - 4rem);
+    padding: 0 2rem 0 2rem;
+  }
 `;
 
 export default StyledHero;

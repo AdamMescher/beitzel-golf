@@ -8,8 +8,11 @@ const StyledHeader = styled.header`
   align-items: center;
   font-weight: 700;
 
-  @media (max-width: 725px) {
+  @media (max-width: 1250px) {
     flex-direction: column;
+    .header-nav {
+      margin-top: 2rem;
+    }
   }
 `;
 

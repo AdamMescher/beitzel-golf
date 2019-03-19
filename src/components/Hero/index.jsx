@@ -8,7 +8,7 @@ const Hero = () => (
   <StyledHero>
     <div className="knockout-and-brush-container">
       <Knockout lines={["Brian Beitzel", "Golf Professional"]} />
-      <Brush img={brushes.brushOne} />
+      <Brush className="hero-brush" img={brushes.brushOne} />
     </div>
     <div className="hero-copy-container">
       <p className="hero-copy-text">

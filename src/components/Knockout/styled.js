@@ -27,6 +27,32 @@ const StyledKnockout = styled.div`
   h2:last-child {
     margin-bottom: 0.5rem;
   }
+
+  @media (max-width: 1250px) {
+    padding: 1rem 0 1rem 1rem;
+    h2 {
+      font-size: ${props => props.theme.fontStack.h3FontSize};
+      padding: 1rem;
+    }
+  }
+
+  @media (max-width: 900px) {
+    width: 6rem;
+    h2 {
+      font-size: ${props => props.theme.fontStack.h4FontSize};
+      padding: 0.6rem 1rem 0.6rem 1rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    width: 4rem;
+    padding: 0.6rem 0 0.6rem 0.6rem;
+    margin-bottom: 2rem;
+    h2 {
+      font-size: ${props => props.theme.fontStack.h5FontSize};
+      padding: 0.75rem;
+    }
+  }
 `;
 
 export default StyledKnockout;
