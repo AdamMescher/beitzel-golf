@@ -11,10 +11,8 @@ const Hero = () => (
       <Brush className="hero-brush" img={brushes.brushOne} />
     </div>
     <div className="hero-copy-container">
-      <p className="hero-copy-text">
-        Long irons Dancing on the practice ground.
-      </p>
-      <p className="hero-copy-text">
+      <p>Long irons Dancing on the practice ground.</p>
+      <p>
         That's a big slice Waggle your hips and swing A controlled draw Struck
         by lightning You skied it!
       </p>
